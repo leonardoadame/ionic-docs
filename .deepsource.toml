@@ -5,3 +5,24 @@ name = "shell"
 
 [[analyzers]]
 name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "react",
+    "ember",
+    "angularjs",
+    "vue",
+    "meteor",
+    "angular"
+  ]
+  environment = [
+    "nodejs",
+    "jest",
+    "jasmine",
+    "mongo",
+    "vitest",
+    "mocha",
+    "browser",
+    "jquery",
+    "cypress"
+  ]
