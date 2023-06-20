@@ -413,7 +413,7 @@ export default function Playground({
       if (!hasUsageTargetOptions) {
         return codeSnippets[usageTarget];
       }
-      if (codeSnippets[usageTarget] == null) {
+      if (codeSnippets[usageTarget] === null) {
         return null;
       }
       return (
