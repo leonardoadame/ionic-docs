@@ -76,7 +76,7 @@ async function getPkgJsonData(pluginId) {
 
 async function main() {
   await Promise.all(pluginApis.map(buildPluginApiDocs));
-  console.log(`Plugin API Files Updated 🎸`);
+  console.log("Plugin API Files Updated 🎸");
 }
 
 function toTitleCase(str) {
